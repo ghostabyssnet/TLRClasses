@@ -1,3 +1,6 @@
+import { OnFanOfKnives, OnTumble } from "./Rogue/Spells/Tumble";
+
 export function Main(events: TSEventHandlers) {
-    // Register your events here!
+    OnTumble(events);
+    OnFanOfKnives(events);
 }
