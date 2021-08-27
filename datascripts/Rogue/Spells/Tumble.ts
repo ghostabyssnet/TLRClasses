@@ -19,6 +19,6 @@ TUMBLE.row.PowerType.set(3);
 TUMBLE.row.ManaCost.set(0);
 TUMBLE.row.ManaCostPct.set(10)
 TUMBLE.Cooldown.set(500, 0, 0, 0);
-// console.log(TUMBLE.objectify()); 31 23 21 
+console.log(TUMBLE.objectify()); // 31 23 21 
 
 const STR = std.Spells.load(48638);
