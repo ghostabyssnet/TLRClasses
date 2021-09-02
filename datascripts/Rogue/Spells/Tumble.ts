@@ -48,7 +48,7 @@ TUMBLE.CastKit.Animation.setSpecial1H();
 // TODO: fix huge cooldown bug when sprint is used
 // TODO: add 'Spells\\Shadow_Precast_Med_Base.mdx' as effect to empowered shiv
 const STR2 = std.Spells.load(51723);
-console.log(STR2.ClassMask.objectify());
+//console.log(STR2.ClassMask.objectify());
 STR2.ClassMask.set(0, 262144, 0);
 STR2.row.ManaCost.set(35);
 //console.log(STR.Effects.objectify());
