@@ -43,7 +43,6 @@ TUMBLE.Icon.set('Interface\\Icons\\ability_rogue_fleetfooted.blp');
 TUMBLE.StateKit.BaseEffect.set('Spells\\Shadow_Precast_Med_Base.mdx', 1, 1, 1, 1);
 TUMBLE.CastKit.Animation.setSpecial1H();
 //console.log(TUMBLE.objectify());
-//console.log("AAAA\n\n\n\n")
 
 // TODO: fix huge cooldown bug when sprint is used
 // TODO: add 'Spells\\Shadow_Precast_Med_Base.mdx' as effect to empowered shiv
